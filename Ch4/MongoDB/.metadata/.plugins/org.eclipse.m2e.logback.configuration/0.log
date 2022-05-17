@@ -62,3 +62,4 @@
 2022-05-16 20:47:55,444 [Worker-5: Launching taco-cloud-sd-mongodb - TacoCloudApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Manex\Documents\Code College\Spring Core\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch04\tacos-sd-mongodb\src\test\resources
 2022-05-16 20:50:24,106 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2022-05-16 22:29:49,983 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-17 08:32:57,516 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
