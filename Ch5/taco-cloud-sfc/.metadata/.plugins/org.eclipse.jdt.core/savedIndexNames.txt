@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\Manex\Documents\Code College\Spring Core\WorkSpaces\Ch5\taco-cloud-sfc\.metadata\.plugins\org.eclipse.jdt.core
+1369440669.index
