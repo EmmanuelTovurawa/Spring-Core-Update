@@ -3340,3 +3340,1877 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2022-05-11 21:17:20.402
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-05-22 09:17:36.672 -----------------------------------------------
+eclipse.buildId=4.14.1.202204250734
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-05-22 09:18:19.922
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-22 09:18:19.922
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ef28dc4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59b3f162,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-22 09:18:19.922
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ade62a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53d15034,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-05-22 09:18:22.909
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Manex'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2022-05-22 09:19:00.133
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.182
+!MESSAGE npm ERR! Windows_NT 10.0.19044
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.182
+!MESSAGE npm ERR! argv "C:\\Users\\Manex\\Documents\\Code College\\Spring Core\\spring-in-action-6-samples-main\\spring-in-action-6-samples-main\\ch07\\tacocloud-ui\\node\\node.exe" "C:\\Users\\Manex\\Documents\\Code College\\Spring Core\\spring-in-action-6-samples-main\\spring-in-action-6-samples-main\\ch07\\tacocloud-ui\\node\\node_modules\\npm\\bin\\npm-cli.js" "install"
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.184
+!MESSAGE npm ERR! node v6.9.1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.184
+!MESSAGE npm ERR! npm  v3.10.8
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.185
+!MESSAGE npm ERR! code EPROTO
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.185
+!MESSAGE npm ERR! errno EPROTO
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.186
+!MESSAGE npm ERR! syscall write
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.187
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.188
+!MESSAGE npm ERR! write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.189
+!MESSAGE npm ERR! 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.190
+!MESSAGE npm ERR! 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.191
+!MESSAGE npm ERR! If you need help, you may report this error at:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.192
+!MESSAGE npm ERR!     <https://github.com/npm/npm/issues>
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.205
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.206
+!MESSAGE npm ERR! Please include the following file with any support request:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.207
+!MESSAGE npm ERR!     C:\Users\Manex\Documents\Code College\Spring Core\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-ui\npm-debug.log
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.996
+!MESSAGE C:\Users\Manex\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng.js:35
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.997
+!MESSAGE   );
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.998
+!MESSAGE   ^
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.999
+!MESSAGE SyntaxError: Unexpected token )
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:42.999
+!MESSAGE     at Object.exports.runInThisContext (vm.js:76:16)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.000
+!MESSAGE     at Module._compile (module.js:542:28)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.000
+!MESSAGE     at Object.Module._extensions..js (module.js:579:10)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.001
+!MESSAGE     at Module.load (module.js:487:32)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.002
+!MESSAGE     at tryModuleLoad (module.js:446:12)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.002
+!MESSAGE     at Function.Module._load (module.js:438:3)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.002
+!MESSAGE     at Module.runMain (module.js:604:10)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.003
+!MESSAGE     at run (bootstrap_node.js:394:7)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.003
+!MESSAGE     at startup (bootstrap_node.js:149:9)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.004
+!MESSAGE     at bootstrap_node.js:509:3
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.004
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.007
+!MESSAGE npm ERR! Windows_NT 10.0.19044
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.007
+!MESSAGE npm ERR! argv "C:\\Users\\Manex\\Documents\\Code College\\Spring Core\\spring-in-action-6-samples-main\\spring-in-action-6-samples-main\\ch07\\tacocloud-ui\\node\\node.exe" "C:\\Users\\Manex\\Documents\\Code College\\Spring Core\\spring-in-action-6-samples-main\\spring-in-action-6-samples-main\\ch07\\tacocloud-ui\\node\\node_modules\\npm\\bin\\npm-cli.js" "run-script" "build"
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.008
+!MESSAGE npm ERR! node v6.9.1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.008
+!MESSAGE npm ERR! npm  v3.10.8
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.009
+!MESSAGE npm ERR! code ELIFECYCLE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.010
+!MESSAGE npm ERR! taco-web-ui@0.0.0 build: `ng build --dev`
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.010
+!MESSAGE npm ERR! Exit status 1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.010
+!MESSAGE npm ERR! 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.011
+!MESSAGE npm ERR! Failed at the taco-web-ui@0.0.0 build script 'ng build --dev'.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.011
+!MESSAGE npm ERR! Make sure you have the latest version of node.js and npm installed.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.012
+!MESSAGE npm ERR! If you do, this is most likely a problem with the taco-web-ui package,
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.013
+!MESSAGE npm ERR! not with npm itself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.013
+!MESSAGE npm ERR! Tell the author that this fails on your system:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.014
+!MESSAGE npm ERR!     ng build --dev
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.014
+!MESSAGE npm ERR! You can get information on how to open an issue for this project with:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.014
+!MESSAGE npm ERR!     npm bugs taco-web-ui
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.014
+!MESSAGE npm ERR! Or if that isn't available, you can get their info via:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.015
+!MESSAGE npm ERR!     npm owner ls taco-web-ui
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.016
+!MESSAGE npm ERR! There is likely additional logging output above.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:20:43.017
+!MESSAGE npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.017
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.017
+!MESSAGE npm ERR! Please include the following file with any support request:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:20:43.018
+!MESSAGE npm ERR!     C:\Users\Manex\Documents\Code College\Spring Core\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-ui\npm-debug.log
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:21:00.695
+!MESSAGE Illegal character in path at index 35: file:/C:/Users/Manex/Documents/Code College/Spring Core/sts-4.14.1.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319/jars/
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 35: file:/C:/Users/Manex/Documents/Code College/Spring Core/sts-4.14.1.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319/jars/
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URL.toURI(URL.java:1056)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.addJarsFromBundle(MavenRuntimeClasspathProvider.java:81)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.get(MavenRuntimeClasspathProvider.java:66)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.get(MavenRuntimeClasspathProvider.java:1)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1850)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getXMLLSClassPathExtensions(XMLExtensionRegistry.java:81)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getExtensionJarPaths(XMLLanguageServer.java:148)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:83)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.createConnectionProvider(LanguageServersRegistry.java:147)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:222)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.core.resources 4 2 2022-05-22 09:31:45.684
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.lsp4j.services.LanguageServer.getWorkspaceService()" because "this.languageServer" is null
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:176)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:577)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:04.727
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:06.021
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:06.345
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:32:08.435
+!MESSAGE Could not download javadoc for sia:tacocloud-data:0.0.7-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact sia:tacocloud-data:jar:javadoc:0.0.7-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing sia:tacocloud-data:jar:javadoc:0.0.7-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-05-22 09:32:08.435
+!MESSAGE Could not resolve artifact sia:tacocloud-data:jar:javadoc:0.0.7-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-05-22 09:32:08.436
+!MESSAGE Missing sia:tacocloud-data:jar:javadoc:0.0.7-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:12.374
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:12.573
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:22.080
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:22.462
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:22.463
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:23.017
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:23.021
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:23.591
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:23.592
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 09:32:24.040
+!MESSAGE Could not download javadoc for sia:tacocloud-domain:0.0.7-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact sia:tacocloud-domain:jar:javadoc:0.0.7-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing sia:tacocloud-domain:jar:javadoc:0.0.7-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-05-22 09:32:24.040
+!MESSAGE Could not resolve artifact sia:tacocloud-domain:jar:javadoc:0.0.7-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-05-22 09:32:24.040
+!MESSAGE Missing sia:tacocloud-domain:jar:javadoc:0.0.7-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:24.048
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:24.217
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:24.218
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:25.119
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 09:32:25.120
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:39:52.915
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:39:52.916
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5b9d7f7[org.springframework.tooling.boot.ls:1.33.0.202204250653(id=569)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:39:52.920
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:39:52.953
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:40:00.309
+!MESSAGE Boot LS startup time from start to initialized: 7381ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:40:00.388
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZlkfPadiisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:40:00.392
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:40:00.394
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:40:00.394
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:40:00.395
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:40:00.395
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZlkfPadi => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:40:00.408
+!MESSAGE classpath=161 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:40:00.412
+!MESSAGE buffering callback sts4.classpath.ZlkfPadi taco-cloud false 161
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:40:00.413
+!MESSAGE executing callback sts4.classpath.ZlkfPadi 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 09:40:02.421
+!MESSAGE executing callback sts4.classpath.ZlkfPadi FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-05-22 09:40:02.422
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:11:35.113
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZlkfPadi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:11:35.113
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZlkfPadi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:11:35.114
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:11:35.114
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZlkfPadi => OK
+!SESSION 2022-05-22 10:20:17.987 -----------------------------------------------
+eclipse.buildId=4.14.1.202204250734
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\Manex\Documents\Code College\Spring Core\WorkSpaces\Ch7\rest -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-05-22 10:20:21.812
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-22 10:20:21.812
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@351be56b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@212c0aff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-22 10:20:21.812
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21780905,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47666b39,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:26.387
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:26.389
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@449a2c71[org.springframework.tooling.boot.ls:1.33.0.202204250653(id=569)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:26.391
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:26.416
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-05-22 10:20:28.084
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Manex'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:30.479
+!MESSAGE Boot LS startup time from start to initialized: 4080ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:30.645
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gnmukszNisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:30.648
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:30.651
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:30.652
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:30.653
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:30.653
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gnmukszN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:30.669
+!MESSAGE classpath=161 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:30.678
+!MESSAGE buffering callback sts4.classpath.gnmukszN taco-cloud false 161
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:30.679
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 10:20:31.275
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 10:29:45.959
+!MESSAGE Illegal character in path at index 35: file:/C:/Users/Manex/Documents/Code College/Spring Core/sts-4.14.1.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319/jars/
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 35: file:/C:/Users/Manex/Documents/Code College/Spring Core/sts-4.14.1.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319/jars/
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URL.toURI(URL.java:1056)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.addJarsFromBundle(MavenRuntimeClasspathProvider.java:81)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.get(MavenRuntimeClasspathProvider.java:66)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.get(MavenRuntimeClasspathProvider.java:1)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1850)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getXMLLSClassPathExtensions(XMLExtensionRegistry.java:81)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getExtensionJarPaths(XMLLanguageServer.java:148)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:83)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.createConnectionProvider(LanguageServersRegistry.java:147)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:222)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.ui 2 2 2022-05-22 11:06:29.425
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:06:36.570
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:06:36.571
+!MESSAGE buffering callback sts4.classpath.gnmukszN taco-cloud true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:06:36.571
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:06:36.580
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-22 11:06:36.581
+!MESSAGE Exception occurred while fetching the content type from the buffer
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/taco-cloud/src/main/java/tacos/web/api/TacoController.java)[368]: java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:348)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:601)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:41)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:73)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:77)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-05-22 11:06:36.582
+!MESSAGE Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:348)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:601)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:41)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:73)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:77)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-22 11:06:36.583
+!MESSAGE Exception occurred while fetching the content type from the buffer
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/taco-cloud/src/main/java/tacos/web/api/TacoController.java)[368]: java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.LanguageServersRegistry.matches(LanguageServersRegistry.java:419)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$5(LanguageServiceAccessor.java:355)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1707)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:601)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:41)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:73)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:77)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-05-22 11:06:36.583
+!MESSAGE Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.LanguageServersRegistry.matches(LanguageServersRegistry.java:419)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$5(LanguageServiceAccessor.java:355)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1707)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:601)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:41)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:73)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:77)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-22 11:06:36.584
+!MESSAGE Exception occurred while fetching the content type from the buffer
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/taco-cloud/src/main/java/tacos/web/api/TacoController.java)[368]: java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.LanguageServersRegistry.matches(LanguageServersRegistry.java:419)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$5(LanguageServiceAccessor.java:355)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1707)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:601)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:41)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:73)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:77)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-05-22 11:06:36.584
+!MESSAGE Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.LanguageServersRegistry.matches(LanguageServersRegistry.java:419)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$5(LanguageServiceAccessor.java:355)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1707)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:601)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:41)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:73)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:77)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-22 11:06:36.586
+!MESSAGE Exception occurred while fetching the content type from the buffer
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/taco-cloud/src/main/java/tacos/web/api/TacoController.java)[368]: java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:348)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:601)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:60)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:88)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:77)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-05-22 11:06:36.586
+!MESSAGE Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:348)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:601)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:60)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:88)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:77)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-22 11:06:36.586
+!MESSAGE Exception occurred while fetching the content type from the buffer
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/taco-cloud/src/main/java/tacos/web/api/TacoController.java)[368]: java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.DocumentContentSynchronizer.<init>(DocumentContentSynchronizer.java:78)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$15(LanguageServerWrapper.java:599)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-05-22 11:06:36.587
+!MESSAGE Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.DocumentContentSynchronizer.<init>(DocumentContentSynchronizer.java:78)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$15(LanguageServerWrapper.java:599)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-22 11:06:36.588
+!MESSAGE Exception occurred while fetching the content type from the buffer
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/taco-cloud/src/main/java/tacos/web/api/TacoController.java)[368]: java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.LanguageServersRegistry.matches(LanguageServersRegistry.java:419)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$5(LanguageServiceAccessor.java:355)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1707)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:601)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:60)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:88)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:77)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-05-22 11:06:36.588
+!MESSAGE Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.LanguageServersRegistry.matches(LanguageServersRegistry.java:419)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$5(LanguageServiceAccessor.java:355)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1707)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:601)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:60)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:88)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:77)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-22 11:06:36.589
+!MESSAGE Exception occurred while fetching the content type from the buffer
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/taco-cloud/src/main/java/tacos/web/api/TacoController.java)[368]: java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.LanguageServersRegistry.matches(LanguageServersRegistry.java:419)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$5(LanguageServiceAccessor.java:355)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1707)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:601)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:60)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:88)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:77)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-05-22 11:06:36.589
+!MESSAGE Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/taco-cloud/src/main/java/tacos/web/api/TacoController.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:201)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getDocumentContentTypes(LSPEclipseUtils.java:904)
+	at org.eclipse.lsp4e.LanguageServersRegistry.matches(LanguageServersRegistry.java:419)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$5(LanguageServiceAccessor.java:355)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1707)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:601)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:60)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:88)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:77)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2022-05-22 11:06:36.593
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.lsp4j.services.LanguageServer.getWorkspaceService()" because "this.languageServer" is null
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:176)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:577)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.772
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.774
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.775
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.775
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.777
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.777
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-api false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.778
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.779
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.780
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-data false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.781
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.782
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.783
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-domain false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.784
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.785
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.786
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-restclient false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.787
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.788
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.788
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-security false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.788
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.789
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.789
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-ui false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.790
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.792
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.792
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-web false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.792
+!MESSAGE executing callback sts4.classpath.gnmukszN 8 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:21.859
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:23.563
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:23.570
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:23.576
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-security false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:23.578
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:23.659
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.330
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.339
+!MESSAGE classpath=175 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.347
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-web false 175
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.348
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.359
+!MESSAGE classpath=186 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.370
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud false 186
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.371
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.378
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.383
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-api false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.386
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.395
+!MESSAGE classpath=106 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.401
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-domain false 106
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.402
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.413
+!MESSAGE classpath=111 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.419
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-restclient false 111
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.419
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.425
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.432
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-data false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.433
+!MESSAGE executing callback sts4.classpath.gnmukszN 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:25.681
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.634
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.643
+!MESSAGE classpath=186 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.651
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud false 186
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.652
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.658
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.663
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-api false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.664
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.669
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.672
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-data false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.673
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.678
+!MESSAGE classpath=111 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.684
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-restclient false 111
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.685
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.691
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.696
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-security false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.697
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.699
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.700
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-ui false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.700
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.709
+!MESSAGE classpath=175 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.716
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-web false 175
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.716
+!MESSAGE executing callback sts4.classpath.gnmukszN 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:07:27.894
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.802
+!MESSAGE npm ERR! Windows_NT 10.0.19044
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.802
+!MESSAGE npm ERR! argv "C:\\Users\\Manex\\Documents\\Code College\\Spring Core\\spring-in-action-6-samples-main\\spring-in-action-6-samples-main\\ch07\\tacocloud-ui\\node\\node.exe" "C:\\Users\\Manex\\Documents\\Code College\\Spring Core\\spring-in-action-6-samples-main\\spring-in-action-6-samples-main\\ch07\\tacocloud-ui\\node\\node_modules\\npm\\bin\\npm-cli.js" "install"
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.802
+!MESSAGE npm ERR! node v6.9.1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.803
+!MESSAGE npm ERR! npm  v3.10.8
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.803
+!MESSAGE npm ERR! code EPROTO
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.803
+!MESSAGE npm ERR! errno EPROTO
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.804
+!MESSAGE npm ERR! syscall write
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.804
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.804
+!MESSAGE npm ERR! write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.805
+!MESSAGE npm ERR! 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.805
+!MESSAGE npm ERR! 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.805
+!MESSAGE npm ERR! If you need help, you may report this error at:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.805
+!MESSAGE npm ERR!     <https://github.com/npm/npm/issues>
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.812
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.812
+!MESSAGE npm ERR! Please include the following file with any support request:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:43.813
+!MESSAGE npm ERR!     C:\Users\Manex\Documents\Code College\Spring Core\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-ui\npm-debug.log
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.625
+!MESSAGE C:\Users\Manex\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng.js:35
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.627
+!MESSAGE   );
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.627
+!MESSAGE   ^
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.627
+!MESSAGE SyntaxError: Unexpected token )
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.627
+!MESSAGE     at Object.exports.runInThisContext (vm.js:76:16)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.627
+!MESSAGE     at Module._compile (module.js:542:28)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.627
+!MESSAGE     at Object.Module._extensions..js (module.js:579:10)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.627
+!MESSAGE     at Module.load (module.js:487:32)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.628
+!MESSAGE     at tryModuleLoad (module.js:446:12)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.628
+!MESSAGE     at Function.Module._load (module.js:438:3)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.628
+!MESSAGE     at Module.runMain (module.js:604:10)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.629
+!MESSAGE     at run (bootstrap_node.js:394:7)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.629
+!MESSAGE     at startup (bootstrap_node.js:149:9)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.629
+!MESSAGE     at bootstrap_node.js:509:3
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.634
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.637
+!MESSAGE npm ERR! Windows_NT 10.0.19044
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.638
+!MESSAGE npm ERR! argv "C:\\Users\\Manex\\Documents\\Code College\\Spring Core\\spring-in-action-6-samples-main\\spring-in-action-6-samples-main\\ch07\\tacocloud-ui\\node\\node.exe" "C:\\Users\\Manex\\Documents\\Code College\\Spring Core\\spring-in-action-6-samples-main\\spring-in-action-6-samples-main\\ch07\\tacocloud-ui\\node\\node_modules\\npm\\bin\\npm-cli.js" "run-script" "build"
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.638
+!MESSAGE npm ERR! node v6.9.1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.638
+!MESSAGE npm ERR! npm  v3.10.8
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.638
+!MESSAGE npm ERR! code ELIFECYCLE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.639
+!MESSAGE npm ERR! taco-web-ui@0.0.0 build: `ng build --dev`
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.639
+!MESSAGE npm ERR! Exit status 1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.639
+!MESSAGE npm ERR! 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.639
+!MESSAGE npm ERR! Failed at the taco-web-ui@0.0.0 build script 'ng build --dev'.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.639
+!MESSAGE npm ERR! Make sure you have the latest version of node.js and npm installed.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.640
+!MESSAGE npm ERR! If you do, this is most likely a problem with the taco-web-ui package,
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.640
+!MESSAGE npm ERR! not with npm itself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.640
+!MESSAGE npm ERR! Tell the author that this fails on your system:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.640
+!MESSAGE npm ERR!     ng build --dev
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.640
+!MESSAGE npm ERR! You can get information on how to open an issue for this project with:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.641
+!MESSAGE npm ERR!     npm bugs taco-web-ui
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.641
+!MESSAGE npm ERR! Or if that isn't available, you can get their info via:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.641
+!MESSAGE npm ERR!     npm owner ls taco-web-ui
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.641
+!MESSAGE npm ERR! There is likely additional logging output above.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:08:44.642
+!MESSAGE npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.642
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.642
+!MESSAGE npm ERR! Please include the following file with any support request:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 11:08:44.642
+!MESSAGE npm ERR!     C:\Users\Manex\Documents\Code College\Spring Core\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-ui\npm-debug.log
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:11:51.140
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:11:51.140
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:11:51.140
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:11:51.144
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY Activator 4 0 2022-05-22 11:11:51.920
+!MESSAGE DebugException: Launch configuration tacocloud - TacoCloudApplication at file:/C:/Users/Manex/Documents/Code%20College/Spring%20Core/WorkSpaces/Ch7/rest/.metadata/.plugins/org.eclipse.debug.core/.launches/tacocloud%20-%20TacoCloudApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration tacocloud - TacoCloudApplication at file:/C:/Users/Manex/Documents/Code%20College/Spring%20Core/WorkSpaces/Ch7/rest/.metadata/.plugins/org.eclipse.debug.core/.launches/tacocloud%20-%20TacoCloudApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:885)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1368)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:414)
+	at org.springframework.ide.eclipse.boot.launch.devtools.BootDevtoolsClientLaunchConfigurationDelegate.isManaged(BootDevtoolsClientLaunchConfigurationDelegate.java:281)
+	at org.springframework.ide.eclipse.boot.dash.devtools.DevtoolsUtil$1.deleteConf(DevtoolsUtil.java:283)
+	at org.springframework.ide.eclipse.boot.dash.devtools.DevtoolsUtil$1.processTerminated(DevtoolsUtil.java:278)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2022-05-22 11:11:51.920
+!MESSAGE Launch configuration tacocloud - TacoCloudApplication at file:/C:/Users/Manex/Documents/Code%20College/Spring%20Core/WorkSpaces/Ch7/rest/.metadata/.plugins/org.eclipse.debug.core/.launches/tacocloud%20-%20TacoCloudApplication.launch does not exist.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:11:56.521
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:11:56.521
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-api true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:11:56.521
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:11:56.524
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:02.628
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:02.628
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-data true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:02.628
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:02.630
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:03.721
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:04.420
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:04.425
+!MESSAGE classpath=111 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:04.428
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-security false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:04.429
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:04.448
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:04.590
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:04.597
+!MESSAGE classpath=172 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:04.601
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-web false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:04.602
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:04.621
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:05.027
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:05.257
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:10.107
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:10.108
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-domain true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:10.108
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:10.112
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:11.228
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:11.410
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:11.876
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:11.880
+!MESSAGE classpath=60 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:11.884
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-security false 58
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:11.884
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:11.900
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:12.061
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:12.067
+!MESSAGE classpath=135 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:12.071
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-web false 133
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:12.072
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:12.091
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:12.148
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:12.151
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:12.152
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-restclient false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:12.153
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:12.162
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:12.502
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:12.703
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:12.706
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:12.872
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:12.874
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:23.061
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:23.062
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:23.988
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:24.231
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:24.232
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:24.511
+!MESSAGE The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-22 11:12:24.512
+!MESSAGE The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:29.863
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:29.863
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-restclient true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:29.863
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:29.866
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:36.327
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:36.327
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-security true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:36.327
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:12:36.329
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:13:12.128
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:13:12.128
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-ui true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:13:12.128
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:13:12.130
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:13:17.604
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:13:17.604
+!MESSAGE buffering callback sts4.classpath.gnmukszN tacocloud-web true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:13:17.604
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:13:17.606
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:14:04.062
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:14:04.071
+!MESSAGE classpath=161 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:14:04.077
+!MESSAGE buffering callback sts4.classpath.gnmukszN taco-cloud false 161
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:14:04.078
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 11:14:04.120
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-05-22 12:10:56.822
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 12:18:48.468
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 12:18:48.478
+!MESSAGE classpath=167 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 12:18:48.484
+!MESSAGE buffering callback sts4.classpath.gnmukszN taco-cloud false 167
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 12:18:48.485
+!MESSAGE executing callback sts4.classpath.gnmukszN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-22 12:18:48.537
+!MESSAGE executing callback sts4.classpath.gnmukszN SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-05-22 12:18:53.705
+!MESSAGE Illegal character in path at index 35: file:/C:/Users/Manex/Documents/Code College/Spring Core/sts-4.14.1.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319/jars/
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 35: file:/C:/Users/Manex/Documents/Code College/Spring Core/sts-4.14.1.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319/jars/
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URL.toURI(URL.java:1056)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.addJarsFromBundle(MavenRuntimeClasspathProvider.java:81)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.get(MavenRuntimeClasspathProvider.java:66)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.get(MavenRuntimeClasspathProvider.java:1)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1850)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getXMLLSClassPathExtensions(XMLExtensionRegistry.java:81)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getExtensionJarPaths(XMLLanguageServer.java:148)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:83)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.createConnectionProvider(LanguageServersRegistry.java:147)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:222)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jface 2 0 2022-05-22 12:33:40.117
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-22 12:33:40.117
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a704916,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6582b5bb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)

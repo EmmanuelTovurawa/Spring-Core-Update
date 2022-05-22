@@ -2,9 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Manex\Documents\Code College\Spring Core\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch06\taco-cloud"/>
 			<item value="C:\Users\Manex\Documents\Code College\Spring Core\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07"/>
 			<item value="C:\Users\Manex\Documents\Code College\Spring Core\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud"/>
-			<item value="C:\Users\Manex\Documents\Code College\Spring Core\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch06\taco-cloud"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
